@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 30px;
+    font-family: 'Outfit';
+    justify-content: center;
+    justify-items: center;
+    
+  }
+  
+.footersection {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+    font-family: 'Outfit';
+    
+  }
+  
+.footerh3 {
+    font-size: 2rem;
+    margin-bottom: 5vh;
+    font-family: 'Outfit';
+    font-weight: 500;
+    
+  }
+  
+.footerp, .footerul, .footerform {
+    margin: 10px 0;
+  }
+  
+.footerul {
+    list-style: none;
+    padding: 0;
+  }
+
+.footerli{
+    margin-bottom: 3vh;
+    font-weight: 300;
+}
+  
+  
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+.footerinput {
+    padding: 5px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    color:white;
+  }
+  
+.footer .social-links {
+    margin-top: 15px;
+    display: flex;
+  }
+  
+.footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+  }
+  
+.footerbottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 12px;
+    color: gray;
+  }
+  
