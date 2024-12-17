@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles/footerStyle.css';
-import instaicon from './icons/instaicon.png';
-import linkedinicon from './icons/linkedinicon.png';
-import xicon from './icons/xicon.png';
 import { isMobile } from 'react-device-detect';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

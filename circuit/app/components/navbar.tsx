@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image"
 import Link from "next/link"
-import styles from "./styles/navbarStyle.module.css"
 
 import { HStack } from "@chakra-ui/react"
-import { Button } from "@/components/ui/button"
+
 
 import { Ubuntu } from "next/font/google";
 

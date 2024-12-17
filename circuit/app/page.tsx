@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Navbar from "./components/navbar";
+
 import HomePage from "../pages/home";
 import { Provider } from "@/components/ui/provider";
 

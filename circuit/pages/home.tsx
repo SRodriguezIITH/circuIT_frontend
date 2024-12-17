@@ -4,7 +4,6 @@ import Image from "next/image"
 import Navbar from "../app/components/navbar";
 import Footer from "../app/components/footer"
 import { Ubuntu } from "next/font/google";
-import styles from "../components/styles/home.module.css"
 
 import {TypeAnimation} from "react-type-animation"
 

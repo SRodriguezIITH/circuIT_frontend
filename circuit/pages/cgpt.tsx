@@ -4,8 +4,7 @@ import axios from 'axios';
 import * as THREE from 'three';
 import { PCDLoader } from 'three/examples/jsm/loaders/PCDLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import Link from 'next/link';
-import Image from 'next/image';
+
 //import { HStack } from '@/components/ui/';
 
 import { Ubuntu } from "next/font/google";
