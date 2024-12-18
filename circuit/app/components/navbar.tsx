@@ -22,8 +22,8 @@ function Navbar(){
                 <Link href="/" style={{color:"#ffffff", fontWeight:"700", fontStyle:"Ubuntu"}}>Home</Link>
                 <Link href="/cgpt" style={{color:"#30EB33", fontWeight:"400", fontStyle:"Ubuntu"}}>CircuitGPT</Link>
                 <Link href="https://vid-pcd.vercel.app" style={{color:"#30EB33", fontWeight:"400", fontStyle:"Ubuntu"}}>VidPCD</Link>
-                <Link href="/doc" style={{color:"#30EB33", fontWeight:"400", fontStyle:"Ubuntu"}}>Docs</Link>
-                <Link href="/abtus" style={{color:"#30EB33", fontWeight:"400", fontStyle:"Ubuntu"}}>About Us</Link>
+                <Link href="https://docs.google.com/presentation/d/1Ox_YhCXSkQJWNEU0Z9dFkfCBd9CFC02krdW4rCw75H0/edit?usp=sharing" style={{color:"#30EB33", fontWeight:"400", fontStyle:"Ubuntu"}}>Docs</Link>
+                
             </HStack>
         </div>
     );

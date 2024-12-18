@@ -41,6 +41,18 @@ const componentToCharCode: Record<string, string> = {
   wheel: 'W',
 };
 
+// Define the type for json_serializable_data
+interface JsonSerializableData {
+  [key: string]: any; // Replace `any` with a more specific type when the structure is known
+}
+
+// Define the main response structure
+interface ResponseData {
+  message: string;
+  status: "success" | "error"; // Assuming status is either "success" or "error"
+  data: JsonSerializableData;
+}
+
 const CHome = () => {
   const [components, setComponents] = useState<Component[]>(componentsList);
   const [responseData, setResponseData] = useState<any>(null);
@@ -142,7 +154,7 @@ const CHome = () => {
           (points: THREE.Points) => {
             points.name = vertexName;
             points.geometry.computeBoundingBox();
-            const center = points.geometry.boundingBox?.getCenter(new THREE.Vector3()) || new THREE.Vector3();
+            //const center = points.geometry.boundingBox?.getCenter(new THREE.Vector3()) || new THREE.Vector3();
             loadedVertices[vertexName] = randomPosition(); // Assign random position
 
             // Assign a color to the PCD file
@@ -258,7 +270,7 @@ const CHome = () => {
     </h2>
     <form onSubmit={handleSubmit}>
       <div style={{ display: 'grid', gap: '15px' }}>
-        {components.map((component, index) => (
+        {components.map((component) => (
           <div
             key={component.name}
             style={{
